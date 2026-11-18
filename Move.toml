@@ -1,0 +1,16 @@
+[package]
+name = "BurnButtonFactory"
+version = "0.1.0"
+authors = ["BurnButton Team"]
+license = "MIT"
+
+[addresses]
+burnbutton = "_"
+
+[dev-addresses]
+burnbutton = "0xCAFE"
+
+[dependencies.AptosFramework]
+git = "https://github.com"
+rev = "mainnet"
+subdir = "aptos-framework"
